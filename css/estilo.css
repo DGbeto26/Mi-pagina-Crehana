@@ -273,10 +273,29 @@ nav ul li a{
     font-size: 20px;
     color: #a01127;
     line-height: 2.5;
+    text-align: center;
+}
+
+.contenedor-producto img{
+    width: 100%;
 }
 
 .contenedor-producto p{
-    color: #8f8f8f
+    color: #8f8f8f;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+
+.contenedor-producto .link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor-producto .link p{
+    margin-bottom: 0;
+    color: #a01127;
+    font-weight: 700;
 }
 
 /* .hero{
