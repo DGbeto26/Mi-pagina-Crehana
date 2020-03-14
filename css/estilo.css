@@ -278,6 +278,7 @@ nav ul li a{
 
 .contenedor-producto img{
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .contenedor-producto p{
