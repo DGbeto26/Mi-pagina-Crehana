@@ -245,7 +245,8 @@ nav ul li a{
     max-width: 400px;
     margin-left: auto;
     font-size: 1.2rem;
-    line-height: 1.8rem;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*PRODUTOS*/
@@ -291,12 +292,19 @@ nav ul li a{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .contenedor-producto .link p{
     margin-bottom: 0;
     color: #a01127;
     font-weight: 700;
+}
+
+.contenedor-producto .link i{
+    color: #a01127;
+    font-size: 1.5rem;
+    margin-right: 1rem;
 }
 
 /* .hero{
@@ -401,20 +409,39 @@ footer{
     justify-content: center;
 }
 
- .contentenido-footer ul{
+.contentenido-footer .box-date{
     display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    flex-direction: column;
 }
 
-.contentenido-footer ul li i{
+ .contentenido-footer .date{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.contentenido-footer .date i{
+    margin-right: 1rem;
+}
+
+.contentenido-footer .date p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.contentenido-footer {
     color: white;
     font-size: 35px;
     margin-right: 40px;
 }
 
-.contentenido-footer ul img{
-    height: 60px;
+
+.contentenido-footer .logo{
+    width: 40px;
+}
+
+.contentenido-footer .logo img{
+    width: 100%;
     margin: 0 auto;
 }
 
